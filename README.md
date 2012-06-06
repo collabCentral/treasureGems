@@ -1,4 +1,4 @@
-treasureGems
+treasureGems: Treasure Gems for every noob to nurd
 ============
 
-Treasure Gems for every noob to nurd.
+
