@@ -1,4 +1,4 @@
-treasureGems: Treasure Gems for every noob to nurd
+treasureGems: Treasure Gems for every noob to nerd
 ============
 
 
