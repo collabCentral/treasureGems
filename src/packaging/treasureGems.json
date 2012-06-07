@@ -1,5 +1,5 @@
 {
-    "questionBank": [
+    "questionnaire": [
         {
             "question": "Given a string, find if it has all unique characters",
             "categories": "Algorithms; Array; Strings",
