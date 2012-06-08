@@ -1,4 +1,4 @@
-treasureGems: Treasure Gems for every noob to nerd
+treasureGems: Collect as many as you can!!!
 ============
 
 
