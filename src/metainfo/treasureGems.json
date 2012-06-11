@@ -4,6 +4,7 @@
             "question": "Given a string, find if it has all unique characters",
             "categories": "Algorithms; Array; Strings",
             "description": "You have to find out in a given string whether all characters are unique",
+            "complexity": "easy",
             "hints": [
                 "You can use minimal preliminary variables but no complex data structure"
             ]
