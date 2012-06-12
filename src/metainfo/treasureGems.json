@@ -11,7 +11,7 @@
         },
         {
             "question": "Given an integer array A, create a new output array B such that each entry B[i]= product of all elements of A except  A[i]. ",
-            "categories": "Algorithms; Array;",
+            "categories": "Algorithms; Array",
             "description": "O(n) time complexity and w/o using any extra space apart from the output array B. Division operation should not be used as well.",
             "complexity": "easy",
             "hints": [
@@ -20,7 +20,7 @@
         },
         {
             "question": "Implement a memory pool in C++",
-            "categories": "C++; Datastructure;",
+            "categories": "C++; Datastructure",
             "description": "",
             "complexity": "medium",
             "hints": [                
