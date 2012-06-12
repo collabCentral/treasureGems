@@ -17,6 +17,14 @@
             "hints": [
                 "Factorial!!"
             ]
+        },
+        {
+            "question": "Implement a memory pool in C++",
+            "categories": "C++; Datastructure;",
+            "description": "",
+            "complexity": "medium",
+            "hints": [                
+            ]
         }
     ]    
 }
