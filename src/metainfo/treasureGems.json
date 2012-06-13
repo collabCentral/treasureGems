@@ -25,6 +25,15 @@
             "complexity": "medium",
             "hints": [                
             ]
+        }, 
+        {
+             "question": "Given a Source string S[n] and a pattern P[m], find ALL occurances of P in S. ",
+             "categories": "Algorithms; Strings;",
+             "description": "O(mn) time complexity is easily achievable, try improving it.",
+             "complexity": "moderate",
+             "hints": [
+                 "Preprocess the Pattern"
+             ]
         }
     ]    
 }
