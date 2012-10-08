@@ -34,6 +34,12 @@
              "hints": [
                  "Preprocess the Pattern"
              ]
+        },
+        {
+            "question": "Design a calculator which takes given expression and computes results",
+            "categories": "Algorithms; Design; Datastructure;",
+            "description": "Implement various calculators scientific, programmer, statistical etc. etc. with input as an expression",
+            "complexity": "moderate"
         }
     ]    
 }
