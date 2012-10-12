@@ -23,9 +23,9 @@
             "categories": "C++; Datastructure",
             "description": "",
             "complexity": "medium",
-            "hints": [                
+            "hints": [
             ]
-        }, 
+        },
         {
              "question": "Given a Source string S[n] and a pattern P[m], find ALL occurances of P in S. ",
              "categories": "Algorithms; Strings;",
@@ -41,5 +41,5 @@
             "description": "Implement various calculators scientific, programmer, statistical etc. etc. with input as an expression",
             "complexity": "moderate"
         }
-    ]    
+    ]
 }
