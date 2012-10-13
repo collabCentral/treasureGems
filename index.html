@@ -7,7 +7,9 @@
 <script>
     jQuery(document).ready(function()
     {
-		
+	$.get("https://raw.github.com/collabCentral/treasureGems/master/src/metainfo/treasureGems.json", function(data){
+	alert("Data Loaded: " + data);
+	});
     }
     );
 </script>
