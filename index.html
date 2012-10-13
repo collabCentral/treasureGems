@@ -1,25 +1,14 @@
-<html>
-<head>
-<title>Welcome to treasureGems: Collect as many as you can!!!</title>
-<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.2.min.js">
+<html><head><title>Twitter 2.0</title>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+</head><body>
+<div id='tweet-list'></div>
+<script type="text/javascript">
+$(document).ready(function() {
+    var url =  "https://raw.github.com/collabCentral/treasureGems/master/src/metainfo/treasureGems.json";
+    $.getJSON(url + "?callback=?", null, function(tweets) {
+        alert(tweets);
+    });
+});
 </script>
-<!-- include your downloaded jQuery file here -->
-<script>
-    jQuery(document).ready(function()
-    {
-	$.ajax({
-	    url: 'https://raw.github.com/collabCentral/treasureGems/master/src/metainfo/treasureGems.json ',
-	    type: 'GET',
-	    success: function(res) {
-	        alert(res.responseText);
-	    }
-	});
-    }
-    );
-</script>
-</head>
-<body>
-<h1>We are hunting the treasure at the moment. Stay tuned...</h1>
-</body>
-</html>
+</body></html>
 
