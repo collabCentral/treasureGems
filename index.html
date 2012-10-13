@@ -9,7 +9,7 @@
     {
 	$.ajax({
 	     url:"https://raw.github.com/collabCentral/treasureGems/master/src/metainfo/treasureGems.json",
-	     dataType: 'jsonp', // Notice! JSONP <-- P (lowercase)
+	     dataType: 'json', // Notice! JSONP <-- P (lowercase)
 	     success:function(json){
 	         // do stuff with json (in this case an array)
 	         alert(json);
