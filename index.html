@@ -7,10 +7,13 @@
 <script>
     jQuery(document).ready(function()
     {
-	$.get("https://raw.github.com/collabCentral/treasureGems/master/src/metainfo/treasureGems.json",
-	    function(data){
-	      alert(data);
-	    });
+	$.ajax({
+	    url: 'http://raw.github.com/collabCentral/treasureGems/master/src/metainfo/treasureGems.json ',
+	    type: 'GET',
+	    success: function(res) {
+	        alert(res.responseText);
+	    }
+	});
     }
     );
 </script>
