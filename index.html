@@ -4,10 +4,16 @@
 <div id='tweet-list'></div>
 <script type="text/javascript">
 $(document).ready(function() {
-    var url =  "https://raw.github.com/collabCentral/treasureGems/master/src/metainfo/treasureGems.json";
-    $.getJSON(url + "?callback=?", null, function(tweets) {
-        alert(tweets);
-    });
+$.ajax({
+    url: "https://raw.github.com/collabCentral/treasureGems/master/src/metainfo/treasureGems.json",
+    type: "GET",
+    cache: false,
+    dataType: "JSONP",
+    data: { ... },
+    success: function( msg ) {
+        alert(msg);
+    },
+});
 });
 </script>
 </body></html>
