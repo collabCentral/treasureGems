@@ -7,11 +7,16 @@ class Array
 public:
     Array(int size);
 
+    int length() const { return m_size; }
+
     T& operator[](int index);
 
-    bool randomize();
+    T& operator[](int index) const;
 
-private:
+    void compress();
+
+    void decompress();
+
     int m_size;
     T* m_array;
 };
