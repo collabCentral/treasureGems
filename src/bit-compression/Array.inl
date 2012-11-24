@@ -1,6 +1,7 @@
 #include "Array.h"
 
 #include <iostream>
+#include<stdio.h>
 using namespace std;
 
 template<typename T>
@@ -31,16 +32,14 @@ void Array<T>::compress()
 {
 	char* ptr = reinterpret_cast<char*>(m_array);
 	char* iterator = ptr;
-    int step = 0;
-    for (int i = 0; i < m_size*sizeof(int); ++i) {
-    	*iterator = *ptr;
-        iterator++;
-        ptr++;
-        if (i%4 == 3) {
-            step++;
-        	ptr += step;    	
-        }
+    for (int i = 0; i < m_size*sizeof(int); i++) {
+        if (i%4 == 3)
+            ptr++, i++;
+        *iterator++=*ptr++;
     }
+    iterator--;
+    for (;iterator < reinterpret_cast<char*>(m_array+m_size);)
+        *iterator++='\0';
 }
 
 template<typename T>
