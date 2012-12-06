@@ -1,0 +1,45 @@
+{
+    "questionnaire": [
+        {
+            "question": "Given a string, find if it has all unique characters",
+            "categories": "Algorithms; Array; Strings",
+            "description": "You have to find out in a given string whether all characters are unique",
+            "complexity": "easy",
+            "hints": [
+                "You can use minimal preliminary variables but no complex data structure"
+            ]
+        },
+        {
+            "question": "Given an integer array A, create a new output array B such that each entry B[i]= product of all elements of A except  A[i]. ",
+            "categories": "Algorithms; Array",
+            "description": "O(n) time complexity and w/o using any extra space apart from the output array B. Division operation should not be used as well.",
+            "complexity": "easy",
+            "hints": [
+                "Factorial!!"
+            ]
+        },
+        {
+            "question": "Implement a memory pool in C++",
+            "categories": "C++; Datastructure",
+            "description": "",
+            "complexity": "medium",
+            "hints": [
+            ]
+        },
+        {
+             "question": "Given a Source string S[n] and a pattern P[m], find ALL occurances of P in S. ",
+             "categories": "Algorithms; Strings;",
+             "description": "O(mn) time complexity is easily achievable, try improving it.",
+             "complexity": "moderate",
+             "hints": [
+                 "Preprocess the Pattern"
+             ]
+        },
+        {
+            "question": "Design a calculator which takes given expression and computes results",
+            "categories": "Algorithms; Design; Datastructure;",
+            "description": "Implement various calculators scientific, programmer, statistical etc. etc. with input as an expression",
+            "complexity": "moderate"
+        }
+    ]
+}
