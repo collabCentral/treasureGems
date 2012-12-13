@@ -3,7 +3,7 @@
         {
             "question": "Given a string, find if it has all unique characters",
             "categories": "Algorithms; Array; Strings",
-            "description": "You have to find out in a given string whether all characters are unique",
+            "description": [ "You have to find out in a given string whether all characters are unique" ],
             "complexity": "easy",
             "hints": [
                 "You can use minimal preliminary variables but no complex data structure"
@@ -12,7 +12,7 @@
         {
             "question": "Given an integer array A, create a new output array B such that each entry B[i]= product of all elements of A except  A[i]. ",
             "categories": "Algorithms; Array",
-            "description": "O(n) time complexity and w/o using any extra space apart from the output array B. Division operation should not be used as well.",
+            "description": [ "O(n) time complexity and w/o using any extra space apart from the output array B. Division operation should not be used as well." ],
             "complexity": "easy",
             "hints": [
                 "Factorial!!"
@@ -21,7 +21,6 @@
         {
             "question": "Implement a memory pool in C++",
             "categories": "C++; Datastructure",
-            "description": "",
             "complexity": "medium",
             "hints": [
             ]
@@ -29,7 +28,7 @@
         {
              "question": "Given a Source string S[n] and a pattern P[m], find ALL occurances of P in S. ",
              "categories": "Algorithms; Strings;",
-             "description": "O(mn) time complexity is easily achievable, try improving it.",
+             "description": [ "O(mn) time complexity is easily achievable, try improving it." ],
              "complexity": "moderate",
              "hints": [
                  "Preprocess the Pattern"
@@ -38,8 +37,20 @@
         {
             "question": "Design a calculator which takes given expression and computes results",
             "categories": "Algorithms; Design; Datastructure;",
-            "description": "Implement various calculators scientific, programmer, statistical etc. etc. with input as an expression",
+            "description": [ "Implement various calculators scientific, programmer, statistical etc. etc. with input as an expression" ],
             "complexity": "moderate"
+        },
+        {
+            "question": "Explain about conversion operators in C++",
+            "categories": "C++",
+            "description": [ "Assume we are refactoring a library, A, and our goal is to use efficient memory management.",
+                             "Now this library A is depending on library B. The library B provides class Shape as exported header.",
+                             "The library B has exposed a function display which is defined as void display(const Shape*).",
+                             "Now we have control over library A i.e. we can modify the sources of only library A.",
+                             "And in this library we would like to use memory optimizations using Smart pointer, Shared pointer etc.",
+                             "So can you explain how would you use the C++ concepts to achieve this"
+            ],
+            "complexity": "advanced"
         }
     ]
 }
