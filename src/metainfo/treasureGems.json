@@ -5,34 +5,26 @@
             "categories": "Algorithms; Array; Strings",
             "description": [ "You have to find out in a given string whether all characters are unique" ],
             "complexity": "easy",
-            "hints": [
-                "You can use minimal preliminary variables but no complex data structure"
-            ]
+            "hints": [ "You can use minimal preliminary variables but no complex data structure" ]
         },
         {
             "question": "Given an integer array A, create a new output array B such that each entry B[i]= product of all elements of A except  A[i]. ",
             "categories": "Algorithms; Array",
             "description": [ "O(n) time complexity and w/o using any extra space apart from the output array B. Division operation should not be used as well." ],
             "complexity": "easy",
-            "hints": [
-                "Factorial!!"
-            ]
+            "hints": [ "Factorial!!" ]
         },
         {
             "question": "Implement a memory pool in C++",
             "categories": "C++; Datastructure",
             "complexity": "medium",
-            "hints": [
-            ]
         },
         {
              "question": "Given a Source string S[n] and a pattern P[m], find ALL occurances of P in S. ",
              "categories": "Algorithms; Strings;",
              "description": [ "O(mn) time complexity is easily achievable, try improving it." ],
              "complexity": "moderate",
-             "hints": [
-                 "Preprocess the Pattern"
-             ]
+             "hints": [ "Preprocess the Pattern" ]
         },
         {
             "question": "Design a calculator which takes given expression and computes results",
@@ -51,6 +43,31 @@
                              "So can you explain how would you use the C++ concepts to achieve this"
             ],
             "complexity": "advanced"
+        },
+        {
+            "question": "Bad king puzzle",
+            "categories": "Puzzle",
+            "description": [ "Once upon a time there was a very bad king ruling region A. His neighbouring reigon B, had a good hearted queen.",
+                             "King was very fond of wines and he had a huge storage space only meant for storing expensive and rich wines.",
+                             "The king had his birthday in about a months time. He had started preparations for that day. He had stored around",
+                             "1000 bottles of expesive wine to be used during the party. The party would be attended mostly by king's friends",
+                             "who were again of the same nature as this king - they were all bad kings of their respective regions.",
+                             "",
+                             "Considering this the Queen decided to take the advantage of the situation. She sent a spy agent to the kings storage.",
+                             "The job of the spy agent was to poison the bottles with a special poison. The poison was very concentrated and a single",
+                             "drop would be enough to poison a multiple bottles. Also the poison would show its effects only after a months time i.e.",
+                             "the person consuiming the wine would die after a months time.",
+                             "",
+                             "Unfortunately the spy agent was captured while he tried poisioning the bottles. But he had succeeded in poisioning",
+                             "a single bottle. Now the king had a uphill task of determining which bottle would be the poisoned one. Also he wanted to waste",
+                             "almost nothing during the identification process. He, being a bad ruler, decided to use his prisoners to taste the wine",
+                             "in idendifying the poisoned bottle. Although a bad ruler, he was a very clever. He thought for a while and decided to use",
+                             "only 10 prisoners from his prison to identify the bottle. And he found out which was the poisoned bottles without much wastage",
+                             "",
+                             "How did the king found which was the poisioned bottle?"
+            ],
+            "complexity": "expert",
+            "hints": [ "Binary number format" ]
         }
     ]
 }
