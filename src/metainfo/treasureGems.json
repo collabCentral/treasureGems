@@ -68,6 +68,11 @@
             ],
             "complexity": "expert",
             "hints": [ "Binary number format" ]
-        }
+        },
+        {
+            "question": "How do you design the random shuffle of songs seen in music player",
+            "categories": "Algorithms; Arrays; Datastructure;",
+            "complexity": "beginner"
+        },
     ]
 }
