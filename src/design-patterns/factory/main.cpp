@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-    Shape* rectangle = Factory::create("rectangle");
+    Shape* rectangle = Factory::create("Rectangle");
     if (rectangle) 
         rectangle->display();
 
