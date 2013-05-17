@@ -42,6 +42,7 @@ void hello3(const A* ptr)
 
 int main()
 {
+    cout << "And the output is: " << endl;
     SmartPtr<A> m(new A());
     hello1(m);
     hello2(m);
