@@ -7,3 +7,4 @@ int main()
     dictionary.insert();
     return 0;
 }
+
